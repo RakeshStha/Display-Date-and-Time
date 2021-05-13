@@ -1,5 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../img/background.png');
+    background-color: aqua;
+}
+
 .container {
+    margin-top: 50px;
+    padding-top: 50px;
     display: grid;
     justify-content: center;
-    align-items: center;
+    text-align: center;
 }
+
+.content {
+    background-color: rgba(28, 191, 241, 0.301);
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 9px 28px 32px 14px rgba(0,0,0,0.31);
+    -webkit-box-shadow: 9px 28px 32px 14px rgba(0,0,0,0.31);
+    -moz-box-shadow: 9px 28px 32px 14px rgba(0,0,0,0.31);
+    font-weight: bold;
+}
+
+
